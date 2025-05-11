@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Retail Supply Chain</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      padding: 2rem;
+    }
+    .sidebar {
+      width: 30%;
+      background-color: #e0e0e0;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-right: 1rem;
+    }
+    .main {
+      flex: 1;
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .option {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .option:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Retail Supply Chain Dashboard</h1>
+    <p>Transforming Distribution and Logistics Networks</p>
+  </header>
+  <div class="container">
+    <div class="sidebar">
+      <div class="option" onclick="alert('New Logistics form goes here')">New Logistics</div>
+      <div class="option" onclick="alert('Search Location feature')">Search Location</div>
+      <div class="option" onclick="alert('Create New option')">New</div>
+    </div>
+    <div class="main">
+      <h2>Welcome</h2>
+      <p>Select an option from the sidebar to manage logistics.</p>
+      <p>Live transport tracking and analytics can be integrated here.</p>
+    </div>
+  </div>
+</body>
+</html>
